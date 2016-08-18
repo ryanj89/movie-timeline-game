@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KingKong</key>
+	<dict>
+		<key>title</key>
+		<string>King Kong</string>
+		<key>year</key>
+		<integer>1933</integer>
+		<key>url</key>
+		<string>placeholder</string>
+	</dict>
+</dict>
+</plist>
