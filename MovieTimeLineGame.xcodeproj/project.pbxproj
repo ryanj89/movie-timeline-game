@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9428A6BC1D65A56C00C5AABC /* MovieCollection.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9428A6BB1D65A56C00C5AABC /* MovieCollection.plist */; };
 		946858921D65858C00BB1DD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946858911D65858C00BB1DD9 /* AppDelegate.swift */; };
 		946858941D65858C00BB1DD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946858931D65858C00BB1DD9 /* ViewController.swift */; };
 		946858971D65858C00BB1DD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946858951D65858C00BB1DD9 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9428A6BB1D65A56C00C5AABC /* MovieCollection.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MovieCollection.plist; sourceTree = "<group>"; };
 		9468588E1D65858C00BB1DD9 /* MovieTimeLineGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieTimeLineGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		946858911D65858C00BB1DD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		946858931D65858C00BB1DD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				946858911D65858C00BB1DD9 /* AppDelegate.swift */,
 				946858931D65858C00BB1DD9 /* ViewController.swift */,
 				946858BF1D6585B500BB1DD9 /* MovieCollection.swift */,
+				9428A6BB1D65A56C00C5AABC /* MovieCollection.plist */,
 				946858951D65858C00BB1DD9 /* Main.storyboard */,
 				946858981D65858C00BB1DD9 /* Assets.xcassets */,
 				9468589A1D65858C00BB1DD9 /* LaunchScreen.storyboard */,
@@ -235,6 +238,7 @@
 				9468589C1D65858C00BB1DD9 /* LaunchScreen.storyboard in Resources */,
 				946858991D65858C00BB1DD9 /* Assets.xcassets in Resources */,
 				946858971D65858C00BB1DD9 /* Main.storyboard in Resources */,
+				9428A6BC1D65A56C00C5AABC /* MovieCollection.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rjohnsonconsulting.MovieTimeLineGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -420,6 +425,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rjohnsonconsulting.MovieTimeLineGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -488,6 +494,7 @@
 				946858B81D65858D00BB1DD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		946858B91D65858D00BB1DD9 /* Build configuration list for PBXNativeTarget "MovieTimeLineGameTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +503,7 @@
 				946858BB1D65858D00BB1DD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		946858BC1D65858D00BB1DD9 /* Build configuration list for PBXNativeTarget "MovieTimeLineGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +512,7 @@
 				946858BE1D65858D00BB1DD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
